@@ -1,6 +1,9 @@
 # Predicting Road Accident Risk using Deep Regression on Synthetic Data
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+Esmanur Ulu - 231101024
+Nehir Tıraş - 231101065
+Zeynep Yetkin - 231101042
+
 
 This project is the official submission for the **YAP470 Deep Learning** course. It explores the use of deep regression models to predict road accident risk scores based on various environmental and temporal factors. Due to the sparsity of real-world accident data, this model is trained on a synthetically generated dataset.
 
@@ -37,6 +40,3 @@ Our approach involved three main stages:
 * **TensorFlow / Keras:** For building and training the deep regression model.
 * **Jupyter Notebook:** For experimentation and analysis.
 
-## 5. 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
