@@ -1,0 +1,17 @@
+PROJE SONUÇ RAPORU - NOTEBOOK 3 (RANDOM FOREST)
+===============================================
+
+Model: RandomForestRegressor (GridSearch Optimized)
+En Iyi Parametreler: n_estimators=100, max_depth=10, min_samples_split=10
+
+PERFORMANS METRIKLERI:
+----------------------
+Final RMSE Değeri : 0.0563
+R2 (Açıklayıcılık): %88.52
+
+KARŞILAŞTIRMALI ANALİZ:
+-----------------------
+Baseline (Ortalama) Hatası: 0.1662
+Lineer Regresyon Hatası   : 0.0748
+Random Forest Hatası      : 0.0563
+--> İyileşme Oranı (vs Lineer): %24.74

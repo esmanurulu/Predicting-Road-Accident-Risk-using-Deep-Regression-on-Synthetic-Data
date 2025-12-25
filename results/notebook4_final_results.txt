@@ -1,0 +1,25 @@
+
+PROJE SONUÇ RAPORU - NOTEBOOK 4 (FINAL ENSEMBLE)
+================================================
+
+Model Stratejisi: Hybrid Ensemble (50% Random Forest + 50% XGBoost FE)
+Teknik Altyapı   : Domain-Specific Feature Engineering & Weighted Averaging
+
+PERFORMANS METRIKLERİ:
+----------------------
+Final RMSE Değeri : 0.056194
+İyileşme (vs RF)  : 0.000101
+İyileşme (vs XGB) : 0.000084
+
+KARŞILAŞTIRMALI ANALİZ (RMSE):
+-----------------------
+Random Forest (Baseline Champion) : 0.056295
+XGBoost (Optimized + FE)          : 0.056278
+Final Ensemble (Hybrid Solution)  : 0.056194
+--> Klasik ML için ulaşılan doygunluk (Saturation) noktasıdır.
+
+NOTEBOOK SONUCU:
+----------------
+Klasik makine öğrenmesi algoritmaları ile RMSE skorunda virgülden sonraki 
+4. haneye kadar hassasiyet sağlanmıştır. Bu aşama projenin 'Klasik ML' 
+finalidir. Bir sonraki hedef bu '0.0561' duvarını PyTorch ile yıkmaktır.
